@@ -1,0 +1,990 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+iguwulu := noun1-noun-lex &
+  [ STEM < "iguwulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_that.one.i.du.acc_n_rel" ].
+
+bibi := noun1-noun-lex &
+  [ STEM < "bibi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_little.while_n_rel" ].
+
+jirrbali := noun1-noun-lex &
+  [ STEM < "jirrbali" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lie.on.stomach_n_rel" ].
+
+jamba := noun1-noun-lex &
+  [ STEM < "jamba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ground.iv.acc_n_rel" ].
+
+marrgulu := noun1-noun-lex &
+  [ STEM < "marrgulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_egg.iv--or-egg.iv.acc_n_rel" ].
+
+gujiga := noun1-noun-lex &
+  [ STEM < "gujiga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ceremony.iv.acc_n_rel" ].
+
+alaji := noun1-noun-lex &
+  [ STEM < "alaji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_boy.i.nom-or-boy.i.acc-or-boy.i--or-child.i.acc_n_rel" ].
+
+igima := noun1-noun-lex &
+  [ STEM < "igima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_that.one.i.sg.acc_n_rel" ].
+
+bungmungmanya := noun1-noun-lex &
+  [ STEM < "bungmungmanya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_old.women.ii.nom_n_rel" ].
+
+bungmanya := noun1-noun-lex &
+  [ STEM < "bungmanya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_old.woman.ii.nom-or-old.woman.ii-_n_rel" ].
+
+ninkigunyimbili := noun1-noun-lex &
+  [ STEM < "ninkigunyimbili" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.i.pl.comit_n_rel" ].
+
+banjanganinma := noun1-noun-lex &
+  [ STEM < "banjanganinma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tail.iii.acc_n_rel" ].
+
+maga := noun1-noun-lex &
+  [ STEM < "maga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_country.iv.nom-or-camp.iv.nom_n_rel" ].
+
+jagina := noun1-noun-lex &
+  [ STEM < "jagina" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lie.on.back_n_rel" ].
+
+bungmaji := noun1-noun-lex &
+  [ STEM < "bungmaji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_old.man.i.nom_n_rel" ].
+
+yunumarrga := noun1-noun-lex &
+  [ STEM < "yunumarrga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.way_n_rel" ].
+
+ngangi := noun1-noun-lex &
+  [ STEM < "ngangi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.sg.poss.i.acc_n_rel" ].
+
+gagulu := noun1-noun-lex &
+  [ STEM < "gagulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_y.brother.i.acc_n_rel" ].
+
+nyilangunya := noun1-noun-lex &
+  [ STEM < "nyilangunya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_echidna.ii.acc_n_rel" ].
+
+alanga := noun1-noun-lex &
+  [ STEM < "alanga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_girl.ii.nom_n_rel" ].
+
+irda := noun1-noun-lex &
+  [ STEM < "irda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_father.i.acc-or-father.i.nom_n_rel" ].
+
+ninagiyawulija := noun1-noun-lex &
+  [ STEM < "ninagiyawulija" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_that.i.du.dat_n_rel" ].
+
+warnu := noun1-noun-lex &
+  [ STEM < "warnu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tobacco.iv.acc-or-tobacco.iv.nom_n_rel" ].
+
+gunju := noun1-noun-lex &
+  [ STEM < "gunju" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_meat.iv.acc-or-meat.iv.nom_n_rel" ].
+
+jundurra := noun1-noun-lex &
+  [ STEM < "jundurra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dust.iv.acc_n_rel" ].
+
+babanya := noun1-noun-lex &
+  [ STEM < "babanya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sister.ii.nom_n_rel" ].
+
+darranggu := noun1-noun-lex &
+  [ STEM < "darranggu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tree.iv.nom-or-stick.iv.nom-or-stick.iv.acc_n_rel" ].
+
+inigunji := noun1-noun-lex &
+  [ STEM < "inigunji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.i.pl.acc_n_rel" ].
+
+gajurra := noun1-noun-lex &
+  [ STEM < "gajurra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dance.fut_n_rel" ].
+
+bungmungmaji := noun1-noun-lex &
+  [ STEM < "bungmungmaji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_old.men.i.nom_n_rel" ].
+
+danya := noun1-noun-lex &
+  [ STEM < "danya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_clothes.iv.acc_n_rel" ].
+
+dirdibulyi := noun1-noun-lex &
+  [ STEM < "dirdibulyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_peewee.i.nom_n_rel" ].
+
+ayigurrajbi := noun1-noun-lex &
+  [ STEM < "ayigurrajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_all.day_n_rel" ].
+
+yana := noun1-noun-lex &
+  [ STEM < "yana" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.iv.sg.nom_n_rel" ].
+
+wawunji := noun1-noun-lex &
+  [ STEM < "wawunji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sugarbag.i.acc_n_rel" ].
+
+juwarramba := noun1-noun-lex &
+  [ STEM < "juwarramba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_men.i.acc-or-men.i.nom_n_rel" ].
+
+ginkanyi := noun1-noun-lex &
+  [ STEM < "ginkanyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.way_n_rel" ].
+
+jaga := noun1-noun-lex &
+  [ STEM < "jaga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_leg.iv.nom_n_rel" ].
+
+damangga := noun1-noun-lex &
+  [ STEM < "damangga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_head.iv.nom_n_rel" ].
+
+maganja := noun1-noun-lex &
+  [ STEM < "maganja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_digging.stick.iv.acc_n_rel" ].
+
+marala := noun1-noun-lex &
+  [ STEM < "marala" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_heart.iv.nom_n_rel" ].
+
+baba := noun1-noun-lex &
+  [ STEM < "baba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_brother.i.acc-or-brother.i-_n_rel" ].
+
+juruma := noun1-noun-lex &
+  [ STEM < "juruma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_stomach.iv.nom-or-stomach.iii.acc-or-stomach.iii.nom_n_rel" ].
+
+garrinyma := noun1-noun-lex &
+  [ STEM < "garrinyma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_road.iii.acc_n_rel" ].
+
+nana := noun1-noun-lex &
+  [ STEM < "nana" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.i.sg.nom_n_rel" ].
+
+lunggaji := noun1-noun-lex &
+  [ STEM < "lunggaji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_policeman.i--or-policeman.i.nom_n_rel" ].
+
+warnnganji := noun1-noun-lex &
+  [ STEM < "warnnganji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fly.i.nom_n_rel" ].
+
+nyanyalu := noun1-noun-lex &
+  [ STEM < "nyanyalu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tea.i.acc-or-tea.iv.acc_n_rel" ].
+
+indilyawurna := noun1-noun-lex &
+  [ STEM < "indilyawurna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_curlew.ii.nom_n_rel" ].
+
+marndanga := noun1-noun-lex &
+  [ STEM < "marndanga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_white.woman.ii.acc_n_rel" ].
+
+mayinanji := noun1-noun-lex &
+  [ STEM < "mayinanji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_goanna.i.acc_n_rel" ].
+
+burnaringma := noun1-noun-lex &
+  [ STEM < "burnaringma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_wild.orange.iii.nom-or-orange.iii.acc-or-wild.orange.iii.acc_n_rel" ].
+
+gambada := noun1-noun-lex &
+  [ STEM < "gambada" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sun.ii.nom_n_rel" ].
+
+banjirna := noun1-noun-lex &
+  [ STEM < "banjirna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cousin.ii.nom_n_rel" ].
+
+bayida := noun1-noun-lex &
+  [ STEM < "bayida" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_e.sister.ii.nom_n_rel" ].
+
+wirrilgarra := noun1-noun-lex &
+  [ STEM < "wirrilgarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cockatiel.ii.nom_n_rel" ].
+
+julaji := noun1-noun-lex &
+  [ STEM < "julaji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bird.i.acc-or-bird.i.nom_n_rel" ].
+
+galyurringi := noun1-noun-lex &
+  [ STEM < "galyurringi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_water.i.nom-or-water.i.acc_n_rel" ].
+
+juguli := noun1-noun-lex &
+  [ STEM < "juguli" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_boomerang.i.acc-or-boomerang.i.nom_n_rel" ].
+
+guyalinji := noun1-noun-lex &
+  [ STEM < "guyalinji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lacking.i.nom_n_rel" ].
+
+banduma := noun1-noun-lex &
+  [ STEM < "banduma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_back.iii.acc_n_rel" ].
+
+marranya := noun1-noun-lex &
+  [ STEM < "marranya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_yarn.iv.acc_n_rel" ].
+
+%28 := noun1-noun-lex &
+  [ STEM < "(" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_what.i.acc_n_rel" ].
+
+darridarri := noun1-noun-lex &
+  [ STEM < "darridarri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.in.a.line_n_rel" ].
+
+buringi := noun1-noun-lex &
+  [ STEM < "buringi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_witchetty.grub.i.nom_n_rel" ].
+
+gujinya := noun1-noun-lex &
+  [ STEM < "gujinya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mother.ii.acc-or-mother.ii.nom_n_rel" ].
+
+gurdanymila := noun1-noun-lex &
+  [ STEM < "gurdanymila" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sick.one.ii.acc_n_rel" ].
+
+bujili := noun1-noun-lex &
+  [ STEM < "bujili" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bottle.iv.nom_n_rel" ].
+
+ngijini := noun1-noun-lex &
+  [ STEM < "ngijini" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_yesterday_n_rel" ].
+
+gayinanka := noun1-noun-lex &
+  [ STEM < "gayinanka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_for.something_n_rel" ].
+
+nayirrundurna := noun1-noun-lex &
+  [ STEM < "nayirrundurna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_women.ii.nom_n_rel" ].
+
+namirra := noun1-noun-lex &
+  [ STEM < "namirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_stone.iv.acc_n_rel" ].
+
+milarra := noun1-noun-lex &
+  [ STEM < "milarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tears.iv.nom_n_rel" ].
+
+nayida := noun1-noun-lex &
+  [ STEM < "nayida" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_woman.ii.nom_n_rel" ].
+
+narunguja := noun1-noun-lex &
+  [ STEM < "narunguja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car.iv.acc-or-car.iv.nom_n_rel" ].
+
+wangarra := noun1-noun-lex &
+  [ STEM < "wangarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_corroboree.iv.acc_n_rel" ].
+
+bagijbi_1 := noun1-noun-lex &
+  [ STEM < "bagijbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bad.i.nom_n_rel" ].
+
+nganybulanyinini := noun1-noun-lex &
+  [ STEM < "nganybulanyinini" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat.i-_n_rel" ].
+
+gajurru := noun1-noun-lex &
+  [ STEM < "gajurru" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dance_n_rel" ].
+
+alangmiminji := noun1-noun-lex &
+  [ STEM < "alangmiminji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_children.i.nom-or-children.i.acc_n_rel" ].
+
+manjungu := noun1-noun-lex &
+  [ STEM < "manjungu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_shade.iv.acc_n_rel" ].
+
+yangaji := noun1-noun-lex &
+  [ STEM < "yangaji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_meat.i.acc-or-meat.i.nom_n_rel" ].
+
+galaa := noun1-noun-lex &
+  [ STEM < "galaa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bone..iv.acc_n_rel" ].
+
+jawala := noun1-noun-lex &
+  [ STEM < "jawala" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_name.of.ceremony.acc_n_rel" ].
+
+murlu := noun1-noun-lex &
+  [ STEM < "murlu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eye.iv.acc_n_rel" ].
+
+maliyirna := noun1-noun-lex &
+  [ STEM < "maliyirna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_boss.ii.nom_n_rel" ].
+
+irrilyi := noun1-noun-lex &
+  [ STEM < "irrilyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fingernail.iv.nom_n_rel" ].
+
+gayina := noun1-noun-lex &
+  [ STEM < "gayina" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_what.iv.acc-or-what.iv.nom-or-something.iv.acc_n_rel" ].
+
+juwa := noun1-noun-lex &
+  [ STEM < "juwa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_man.i.nom_n_rel" ].
+
+bulinja := noun1-noun-lex &
+  [ STEM < "bulinja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_algae.iv.acc_n_rel" ].
+
+ngarlana := noun1-noun-lex &
+  [ STEM < "ngarlana" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_language.iv.acc_n_rel" ].
+
+murrgunji := noun1-noun-lex &
+  [ STEM < "murrgunji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_three.i.acc_n_rel" ].
+
+gijilulu := noun1-noun-lex &
+  [ STEM < "gijilulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_money.iv.acc_n_rel" ].
+
+iniyaga := noun1-noun-lex &
+  [ STEM < "iniyaga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_that.i.sg.nom_n_rel" ].
+
+ilirri := noun1-noun-lex &
+  [ STEM < "ilirri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_blood.i.acc_n_rel" ].
+
+barngala := noun1-noun-lex &
+  [ STEM < "barngala" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_have.crossed.legs-or-have.legs.crossed_n_rel" ].
+
+ninaga := noun1-noun-lex &
+  [ STEM < "ninaga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.i.sg.dat_n_rel" ].
+
+ngabulu := noun1-noun-lex &
+  [ STEM < "ngabulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_milk.iv.acc_n_rel" ].
+
+buwarraja_1 := noun1-noun-lex &
+  [ STEM < "buwarraja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dreaming.iv.nom_n_rel" ].
+
+ngangaba := noun1-noun-lex &
+  [ STEM < "ngangaba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fire.iv.acc-or-fire.iv.nom_n_rel" ].
+
+ilyirrga := noun1-noun-lex &
+  [ STEM < "ilyirrga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_leaf.iv.nom_n_rel" ].
+
+danmuga := noun1-noun-lex &
+  [ STEM < "danmuga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_clapping.stick.iv.acc_n_rel" ].
+
+ngangirna := noun1-noun-lex &
+  [ STEM < "ngangirna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.sg.poss.ii.nom_n_rel" ].
+
+gayirra := noun1-noun-lex &
+  [ STEM < "gayirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cooking.site.iv.acc_n_rel" ].
+
+iligirra := noun1-noun-lex &
+  [ STEM < "iligirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_river.iv.nom_n_rel" ].
+
+yurula := noun1-noun-lex &
+  [ STEM < "yurula" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_name.iv.nom_n_rel" ].
+
+janji := noun1-noun-lex &
+  [ STEM < "janji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dog.i.nom-or-dog.i.acc_n_rel" ].
+
+indirra := noun1-noun-lex &
+  [ STEM < "indirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_root.iv.acc_n_rel" ].
+
+barrawu := noun1-noun-lex &
+  [ STEM < "barrawu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_house.iv.acc-or-house.iv.nom_n_rel" ].
+
+barraala := noun1-noun-lex &
+  [ STEM < "barraala" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_white.cockatoo.ii.acc_n_rel" ].
+
+bulungurna := noun1-noun-lex &
+  [ STEM < "bulungurna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_young.woman.ii.nom_n_rel" ].
+
+jajilinya := noun1-noun-lex &
+  [ STEM < "jajilinya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_daughter.ii.nom_n_rel" ].
+
+labirra := noun1-noun-lex &
+  [ STEM < "labirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hand.iv.nom-or-hand.iv.acc_n_rel" ].
+
+nyungga := noun1-noun-lex &
+  [ STEM < "nyungga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hair.iv.acc_n_rel" ].
+
+balamurru := noun1-noun-lex &
+  [ STEM < "balamurru" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_spear.iv.acc-or-spear.iv.nom_n_rel" ].
+
+jalanyi := noun1-noun-lex &
+  [ STEM < "jalanyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_today_n_rel" ].
+
+bayigina := noun1-noun-lex &
+  [ STEM < "bayigina" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bag.ii.acc_n_rel" ].
+
+janga := noun1-noun-lex &
+  [ STEM < "janga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_foot.iv.nom_n_rel" ].
+
+burruburru := noun1-noun-lex &
+  [ STEM < "burruburru" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_paper.iv.acc_n_rel" ].
+
+nayirrurndurna := noun1-noun-lex &
+  [ STEM < "nayirrurndurna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_women.ii.nom_n_rel" ].
+
+nganjala := noun1-noun-lex &
+  [ STEM < "nganjala" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tongue.iv.acc_n_rel" ].
+
+manganyma := noun1-noun-lex &
+  [ STEM < "manganyma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tucker.iii.acc-or-bread.iii.acc-or-tucker.iii.nom-or-bread.iii.nom_n_rel" ].
+
+gayinirna := noun1-noun-lex &
+  [ STEM < "gayinirna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_who.ii.nom_n_rel" ].
+
+ini := noun1-noun-lex &
+  [ STEM < "ini" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_this.i.sg.acc_n_rel" ].
+
+ngijininima := noun1-noun-lex &
+  [ STEM < "ngijininima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tomorrow_n_rel" ].
+
+gumarra := noun1-noun-lex &
+  [ STEM < "gumarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_calf.iv.nom_n_rel" ].
+
+jigama := noun1-noun-lex &
+  [ STEM < "jigama" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_yam.iii.acc_n_rel" ].
+
+wirdgiwirdgima := noun1-noun-lex &
+  [ STEM < "wirdgiwirdgima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tail.iii.nom_n_rel" ].
+
+galama := noun1-noun-lex &
+  [ STEM < "galama" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nose.iii.acc_n_rel" ].
+
+jalyu := noun1-noun-lex &
+  [ STEM < "jalyu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bed.iv.nom_n_rel" ].
+
+bamarra := noun1-noun-lex &
+  [ STEM < "bamarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mouth.iv.nom_n_rel" ].
+
+gagulinya := noun1-noun-lex &
+  [ STEM < "gagulinya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_y.sister.ii.acc-or-y.sister.ii.nom-or-sister.ii.nom_n_rel" ].
+
+gujinganjarra := noun1-noun-lex &
+  [ STEM < "gujinganjarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mother.ii.nom_n_rel" ].
+
+;;; Adjectives
+
+;;; Verbs
+
+bardganyijba := verb1-verb-lex &
+  [ STEM < "bardganyijba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_follow-_v_rel" ].
+
+wagardbi := verb1-verb-lex &
+  [ STEM < "wagardbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_wash_v_rel" ].
+
+nguwajbi := verb1-verb-lex &
+  [ STEM < "nguwajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.jealous_v_rel" ].
+
+wugbugbardi := verb1-verb-lex &
+  [ STEM < "wugbugbardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cook.rdp_v_rel" ].
+
+gannga := verb1-verb-lex &
+  [ STEM < "gannga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_return.nf-or-return_v_rel" ].
+
+nyurrunyurru := verb1-verb-lex &
+  [ STEM < "nyurrunyurru" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+dabudaburri := verb1-verb-lex &
+  [ STEM < "dabudaburri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.no.good.at_v_rel" ].
+
+ngajba := verb1-verb-lex &
+  [ STEM < "ngajba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_see-_v_rel" ].
+
+angbardi := verb1-verb-lex &
+  [ STEM < "angbardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_build_v_rel" ].
+
+junku := verb1-verb-lex &
+  [ STEM < "junku" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_crawl_v_rel" ].
+
+ngarlwi := verb1-verb-lex &
+  [ STEM < "ngarlwi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_talk_v_rel" ].
+
+yabu := verb1-verb-lex &
+  [ STEM < "yabu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bring.fut-or-have-or-take.nf-or-take-or-bring-or-take.fut-or-have.fut_v_rel" ].
+
+bawurrbi := verb1-verb-lex &
+  [ STEM < "bawurrbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_snore_v_rel" ].
+
+ngajbi := verb1-verb-lex &
+  [ STEM < "ngajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_see_v_rel" ].
+
+gudijbi := verb1-verb-lex &
+  [ STEM < "gudijbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_forget_v_rel" ].
+
+burlugardi := verb1-verb-lex &
+  [ STEM < "burlugardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_soak_v_rel" ].
+
+nanganangali := verb1-verb-lex &
+  [ STEM < "nanganangali" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sneak.away_v_rel" ].
+
+baji := verb1-verb-lex &
+  [ STEM < "baji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_grow_v_rel" ].
+
+dawu := verb1-verb-lex &
+  [ STEM < "dawu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bite_v_rel" ].
+
+ilinga := verb1-verb-lex &
+  [ STEM < "ilinga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hear-or-remember_v_rel" ].
+
+didbidbunga := verb1-verb-lex &
+  [ STEM < "didbidbunga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_argue.with_v_rel" ].
+
+nijbi := verb1-verb-lex &
+  [ STEM < "nijbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sing_v_rel" ].
+
+yarru := verb1-verb-lex &
+  [ STEM < "yarru" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_go-or-go.fut-or-go.nf_v_rel" ].
+
+bardba := verb1-verb-lex &
+  [ STEM < "bardba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_run-_v_rel" ].
+
+ngarringga := verb1-verb-lex &
+  [ STEM < "ngarringga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_take.from_v_rel" ].
+
+gami := verb1-verb-lex &
+  [ STEM < "gami" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_smile-or-laugh_v_rel" ].
+
+ganjimi := verb1-verb-lex &
+  [ STEM < "ganjimi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_finish_v_rel" ].
+
+mawula := verb1-verb-lex &
+  [ STEM < "mawula" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_play_v_rel" ].
+
+jiyawu := verb1-verb-lex &
+  [ STEM < "jiyawu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_give-or-give.nf_v_rel" ].
+
+gugbarimi := verb1-verb-lex &
+  [ STEM < "gugbarimi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_choke_v_rel" ].
+
+ginganbi := verb1-verb-lex &
+  [ STEM < "ginganbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_drown_v_rel" ].
+
+bardgujba := verb1-verb-lex &
+  [ STEM < "bardgujba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fall-_v_rel" ].
+
+birrirri := verb1-verb-lex &
+  [ STEM < "birrirri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_shiver_v_rel" ].
+
+bardgu := verb1-verb-lex &
+  [ STEM < "bardgu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fall_v_rel" ].
+
+barndanyi := verb1-verb-lex &
+  [ STEM < "barndanyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_swear_v_rel" ].
+
+yagu := verb1-verb-lex &
+  [ STEM < "yagu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_leave.nf-or-leave_v_rel" ].
+
+yanybi := verb1-verb-lex &
+  [ STEM < "yanybi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_get_v_rel" ].
+
+yurndu := verb1-verb-lex &
+  [ STEM < "yurndu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hit.nf-or-hit_v_rel" ].
+
+barnamuluma := verb1-verb-lex &
+  [ STEM < "barnamuluma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_flash.lightening_v_rel" ].
+
+bardbi := verb1-verb-lex &
+  [ STEM < "bardbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_run_v_rel" ].
+
+ilanji := verb1-verb-lex &
+  [ STEM < "ilanji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cooked.i.acc_v_rel" ].
+
+janmajardi := verb1-verb-lex &
+  [ STEM < "janmajardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_trip.up_v_rel" ].
+
+murri := verb1-verb-lex &
+  [ STEM < "murri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.sore_v_rel" ].
+
+ganmami := verb1-verb-lex &
+  [ STEM < "ganmami" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_get.close_v_rel" ].
+
+gulugbi := verb1-verb-lex &
+  [ STEM < "gulugbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
+
+durra := verb1-verb-lex &
+  [ STEM < "durra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.frightened_v_rel" ].
+
+junmi := verb1-verb-lex &
+  [ STEM < "junmi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cut.nf-or-cut_v_rel" ].
+
+ngaraba := verb1-verb-lex &
+  [ STEM < "ngaraba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_drink-_v_rel" ].
+
+andajarri := verb1-verb-lex &
+  [ STEM < "andajarri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hide_v_rel" ].
+
+%29 := verb1-verb-lex &
+  [ STEM < ")" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bark.at_v_rel" ].
+
+bajiya := verb1-verb-lex &
+  [ STEM < "bajiya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+ganarnda := verb1-verb-lex &
+  [ STEM < "ganarnda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_send_v_rel" ].
+
+irrijabi := verb1-verb-lex &
+  [ STEM < "irrijabi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_scratch_v_rel" ].
+
+dirndirrimi := verb1-verb-lex &
+  [ STEM < "dirndirrimi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_teach_v_rel" ].
+
+gajbi := verb1-verb-lex &
+  [ STEM < "gajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+
+bagijbi_2 := verb1-verb-lex &
+  [ STEM < "bagijbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_feel.bad_v_rel" ].
+
+laji := verb1-verb-lex &
+  [ STEM < "laji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.absent_v_rel" ].
+
+manku := verb1-verb-lex &
+  [ STEM < "manku" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hear-or-feel_v_rel" ].
+
+aliyulu := verb1-verb-lex &
+  [ STEM < "aliyulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_find_v_rel" ].
+
+nguya := verb1-verb-lex &
+  [ STEM < "nguya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dig_v_rel" ].
+
+garrajbi := verb1-verb-lex &
+  [ STEM < "garrajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_want_v_rel" ].
+
+gurdumi := verb1-verb-lex &
+  [ STEM < "gurdumi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.noisy_v_rel" ].
+
+inma := verb1-verb-lex &
+  [ STEM < "inma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_side.with_v_rel" ].
+
+nawunawu := verb1-verb-lex &
+  [ STEM < "nawunawu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_stretch_v_rel" ].
+
+waliyulu := verb1-verb-lex &
+  [ STEM < "waliyulu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_find_v_rel" ].
+
+dirdibila := verb1-verb-lex &
+  [ STEM < "dirdibila" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_clap.fut_v_rel" ].
+
+galyurrungurna := verb1-verb-lex &
+  [ STEM < "galyurrungurna" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_rain.ii.nom_v_rel" ].
+
+ngarlu := verb1-verb-lex &
+  [ STEM < "ngarlu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dance_v_rel" ].
+
+bunjunymi := verb1-verb-lex &
+  [ STEM < "bunjunymi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sneak.up_v_rel" ].
+
+bulugardi := verb1-verb-lex &
+  [ STEM < "bulugardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_soak_v_rel" ].
+
+ngirra := verb1-verb-lex &
+  [ STEM < "ngirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_steal_v_rel" ].
+
+mirra := verb1-verb-lex &
+  [ STEM < "mirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sit-or-be-or-sit.nf_v_rel" ].
+
+garnarnda := verb1-verb-lex &
+  [ STEM < "garnarnda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_send_v_rel" ].
+
+ngajirri := verb1-verb-lex &
+  [ STEM < "ngajirri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.cold_v_rel" ].
+
+janganja := verb1-verb-lex &
+  [ STEM < "janganja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ask-or-ask.fut_v_rel" ].
+
+yardi := verb1-verb-lex &
+  [ STEM < "yardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_put-or-make_v_rel" ].
+
+wugbardijba := verb1-verb-lex &
+  [ STEM < "wugbardijba" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cook-_v_rel" ].
+
+wugbardi := verb1-verb-lex &
+  [ STEM < "wugbardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cook_v_rel" ].
+
+girundajbi := verb1-verb-lex &
+  [ STEM < "girundajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sweat_v_rel" ].
+
+nawu := verb1-verb-lex &
+  [ STEM < "nawu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_step.on_v_rel" ].
+
+munji := verb1-verb-lex &
+  [ STEM < "munji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hide_v_rel" ].
+
+banjarri := verb1-verb-lex &
+  [ STEM < "banjarri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_throw_v_rel" ].
+
+gurda := verb1-verb-lex &
+  [ STEM < "gurda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.sick_v_rel" ].
+
+dulanymi := verb1-verb-lex &
+  [ STEM < "dulanymi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_raise_v_rel" ].
+
+wubi := verb1-verb-lex &
+  [ STEM < "wubi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.red_v_rel" ].
+
+wurrudbanyi := verb1-verb-lex &
+  [ STEM < "wurrudbanyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pull_v_rel" ].
+
+buwarraja_2 := verb1-verb-lex &
+  [ STEM < "buwarraja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dreaming.iv.acc_v_rel" ].
+
+majbi := verb1-verb-lex &
+  [ STEM < "majbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hit_v_rel" ].
+
+wayani := verb1-verb-lex &
+  [ STEM < "wayani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_look.for_v_rel" ].
+
+ngarabi := verb1-verb-lex &
+  [ STEM < "ngarabi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_drink_v_rel" ].
+
+duwa := verb1-verb-lex &
+  [ STEM < "duwa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_get.up_v_rel" ].
+
+garranbi := verb1-verb-lex &
+  [ STEM < "garranbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_stand_v_rel" ].
+
+ayani := verb1-verb-lex &
+  [ STEM < "ayani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_look.for_v_rel" ].
+
+yugu := verb1-verb-lex &
+  [ STEM < "yugu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cry_v_rel" ].
+
+najbi := verb1-verb-lex &
+  [ STEM < "najbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_burn_v_rel" ].
+
+ngunjulanyi := verb1-verb-lex &
+  [ STEM < "ngunjulanyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lift_v_rel" ].
+
+ardbi := verb1-verb-lex &
+  [ STEM < "ardbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_call.out_v_rel" ].
+
+lurrgbanyi := verb1-verb-lex &
+  [ STEM < "lurrgbanyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_grab_v_rel" ].
+
+durnanjarri := verb1-verb-lex &
+  [ STEM < "durnanjarri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cover_v_rel" ].
+
+langanjardi := verb1-verb-lex &
+  [ STEM < "langanjardi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hang.up_v_rel" ].
+
+ganjima := verb1-verb-lex &
+  [ STEM < "ganjima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_finish.fut_v_rel" ].
+
+banymanymi := verb1-verb-lex &
+  [ STEM < "banymanymi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pass.by.rdp_v_rel" ].
+
+gurijbi := verb1-verb-lex &
+  [ STEM < "gurijbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_feel.good_v_rel" ].
+
+yandu := verb1-verb-lex &
+  [ STEM < "yandu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mind-or-wait-or-look.after_v_rel" ].
+
+dirndirrinymi := verb1-verb-lex &
+  [ STEM < "dirndirrinymi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_teach_v_rel" ].
+
+bardganyi := verb1-verb-lex &
+  [ STEM < "bardganyi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_follow_v_rel" ].
+
+didima := verb1-verb-lex &
+  [ STEM < "didima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tell_v_rel" ].
+
+bajijurndu := verb1-verb-lex &
+  [ STEM < "bajijurndu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bring.up_v_rel" ].
+
+warima := verb1-verb-lex &
+  [ STEM < "warima" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hold_v_rel" ].
+
+aradajbi := verb1-verb-lex &
+  [ STEM < "aradajbi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.busy_v_rel" ].
+
+ngarrangarra := verb1-verb-lex &
+  [ STEM < "ngarrangarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.hot_v_rel" ].
+
+daguma := verb1-verb-lex &
+  [ STEM < "daguma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hit-or-hit--or-hit.nf-or-eat-or-fight_v_rel" ].
+
+ngilwi := verb1-verb-lex &
+  [ STEM < "ngilwi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be.ok_v_rel" ].
