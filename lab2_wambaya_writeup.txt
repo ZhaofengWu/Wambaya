@@ -1,0 +1,31 @@
+1. Yes.
+
+2. To get the automatically constructed choice file to work, we first filled in "Wambaya" for the "Name of your language" field in the "General Information" page, then we selected "finite verb or auxiliary in second position, else free word order" for its word order, based on the information given in the paper "Evaluating a Crosslinguistic Grammar Resource: A Case Study of Wambaya" by Bender 2008. 
+
+We then selected "yes" for the existence of determiners in our language, and "Det-Noun" for the order of determiners. We selected "no" for auxiliary verbs. 
+
+In the Lexicon page, we deleted all noun types and verb types except "noun type 1" and "verb type 1" because all the deleted ones were functional affixes. This will be discussed more thoroughly in section 4 of this writeup.
+
+In the Morphology page, we deleted all the "Noun Position Class" in the Noun Inflection section and all the "Verb Position Class" in the Verb Inflection section except for one Noun Position Class (noun-pc87) and one Verb Position Class (verb-pc55) because these two "Position Class" would not result in an error (without a red asterisk).
+
+3. [incr tsdb()]:
+	1. None of them parsed. This is probably because we deleted most of the word types and lexical rules.
+	2. 0.
+	3. 0.
+	4. n/a.
+	5. n/a.
+
+4. The automatically generated choices file considered a lot of functional affixes as stems and form their own word types. For example:
+
+	(1). nouns with type 2 are all dual suffixes. They all have the predication:
+		"_du.nom_n_rel"
+	       in the choices file.	
+	
+	(1).(igt). 540@@@@1@@Naniyawulu bungmaj-bulu wurlu-n yarru@@@@1@4@that.II.DU.NOM old.person-DU.NOM 3.DU.S.NP-PROG go // Those two old women are coming .@@
+
+	(2). verbs with type 5 are all future-tense suffixes. They all have the predication:
+		"_fut_v_rel"
+	       in the choices file.
+
+	(2).(igt). 4840@@@@1@@Ngarl-wa gujinganjanga-nka@@@@1@2@talk-FUT mother.II-DAT // Talk to your mother !@@
+
