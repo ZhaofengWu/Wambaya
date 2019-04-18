@@ -1,0 +1,72 @@
+Language: Wambaya
+Language code: wmb
+Lines: orth gloss translat
+Author: Zhaofeng Wu
+Date: April 17, 2019
+Source a: Nordlinger_AGrammarofWambaya.pdf
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Gijilulu-nguj-bali-ni-ni.
+money-PROP-PL-I-LOC
+`The men with money (ergative/locative).'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case, tense}
+Jany-buli-ji wurlu-ng-a nyurrunyurru.
+dog-DU-LOC 3.DU.A-1.O-NF chase
+`Two dogs chased me.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case, aspect}
+Alaji gi-n yugu.
+boy.I.NOM 3.SG.S(PR)-PROG cry
+`The little boy is crying.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Alaji-ji gi-n yugu.
+boy.I-LOC 3.SG.S(PR)-PROG cry   
+`The little boy is crying.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case, tense}
+Waliyulu irr-a marrgulu.
+find 3.PL.A-PST egg.IV.ACC
+`They found (some) eggs.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Waliyulu irr-a marrgulu-ji.
+find 3.PL.A-PST egg.IV-LOC
+`They found (some) eggs.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case, tense}
+Mirra ng-u ngankagunya-ni.
+sit 1.SG.S-FUT this.II.PL-LOC
+`I’ll sit with these women.'
+
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Mirra ng-u ngankagunya-ni.
+sit 1.SG.S-FUT this.II.PL-LOC
+`I’ll sit with these women.'
+
