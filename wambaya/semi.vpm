@@ -38,18 +38,21 @@ COG-ST : COG-ST
 
 
 PNG.PER : PNG.PER
+  3rd <> 3rd
+  2nd <> 2nd
+  1st <> 1st
   * <> *
 
 PNG.NUM : PNG.NUM
-  du <> du
   pl <> pl
-  sg <> sg
+  du <> du
   * <> *
 
 PNG.GEND : PNG.GEND
   * <> *
 
 E.TENSE : E.TENSE
+  pst <> pst
   fut <> fut
   * <> *
 

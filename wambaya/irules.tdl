@@ -1,1 +1,386 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Inflecting Lexical Rule Instances
+
+noun-pc1_lrt1-suffix :=
+%suffix (* -bulu)
+noun-pc1_lrt1-lex-rule.
+
+noun-pc2_lrt2-suffix :=
+%suffix (* -naganka)
+noun-pc2_lrt2-lex-rule.
+
+noun-pc2_lrt3_a-suffix :=
+%suffix (* -liji)
+noun-pc2_lrt3_a-lex-rule.
+
+noun-pc3_lrt1-suffix :=
+%suffix (* -rdarra)
+noun-pc3_lrt1-lex-rule.
+
+noun-pc4_lrt1-suffix :=
+%suffix (* -ni)
+noun-pc4_lrt1-lex-rule.
+
+noun-pc5_lrt1-suffix :=
+%suffix (* -niganka)
+noun-pc5_lrt1-lex-rule.
+
+noun-pc6_lrt1-suffix :=
+%suffix (* -nka)
+noun-pc6_lrt1-lex-rule.
+
+noun-pc8_lrt1-suffix :=
+%suffix (* -yi)
+noun-pc8_lrt1-lex-rule.
+
+noun-pc8_lrt2-suffix :=
+%suffix (* -mbili)
+noun-pc8_lrt2-lex-rule.
+
+noun-pc9_lrt1-suffix :=
+%suffix (* -nya)
+noun-pc9_lrt1-lex-rule.
+
+noun-pc10_lrt1-suffix :=
+%suffix (* -liji)
+noun-pc10_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix1 :=
+%prefix (* barngali-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix2 :=
+%prefix (* daguma-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix3 :=
+%prefix (* dawi-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix4 :=
+%prefix (* dawu-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix5 :=
+%prefix (* dudiyarri-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix6 :=
+%prefix (* jirrbali-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix7 :=
+%prefix (* nananga-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc11_lrt1-prefix8 :=
+%prefix (* wugbardi-)
+noun-pc11_lrt1-lex-rule.
+
+noun-pc13_lrt1-suffix :=
+%suffix (* -ji)
+noun-pc13_lrt1-lex-rule.
+
+noun-pc13_lrt2-suffix :=
+%suffix (* -janka)
+noun-pc13_lrt2-lex-rule.
+
+noun-pc14_lrt1-suffix :=
+%suffix (* -nguji)
+noun-pc14_lrt1-lex-rule.
+
+noun-pc16_lrt1-suffix :=
+%suffix (* -nu)
+noun-pc16_lrt1-lex-rule.
+
+noun-pc18_lrt1-suffix :=
+%suffix (* -baji)
+noun-pc18_lrt1-lex-rule.
+
+noun-pc18_lrt2-suffix1 :=
+%suffix (* -baji)
+noun-pc18_lrt2-lex-rule.
+
+noun-pc18_lrt2-suffix2 :=
+%suffix (* -barli)
+noun-pc18_lrt2-lex-rule.
+
+noun-pc18_lrt3-suffix :=
+%suffix (* -ba)
+noun-pc18_lrt3-lex-rule.
+
+noun-pc22_lrt1-suffix :=
+%suffix (* -nmanji)
+noun-pc22_lrt1-lex-rule.
+
+noun-pc24_lrt1-suffix :=
+%suffix (* -rdarra)
+noun-pc24_lrt1-lex-rule.
+
+noun-pc25_lrt1-suffix :=
+%suffix (* -nkanyi)
+noun-pc25_lrt1-lex-rule.
+
+noun-pc26_lrt1-suffix :=
+%suffix (* -yaji)
+noun-pc26_lrt1-lex-rule.
+
+noun-pc27_lrt1-suffix :=
+%suffix (* -inji)
+noun-pc27_lrt1-lex-rule.
+
+noun-pc28_lrt1-suffix :=
+%suffix (* -uja)
+noun-pc28_lrt1-lex-rule.
+
+noun-pc29_lrt1-suffix :=
+%suffix (* -galyi)
+noun-pc29_lrt1-lex-rule.
+
+noun-pc30_lrt1-suffix :=
+%suffix (* -nmarndi)
+noun-pc30_lrt1-lex-rule.
+
+noun-pc31_lrt1-suffix :=
+%suffix (* -gunji)
+noun-pc31_lrt1-lex-rule.
+
+noun-pc33_lrt1-suffix :=
+%suffix (* -wulu)
+noun-pc33_lrt1-lex-rule.
+
+noun-pc35_lrt1-suffix :=
+%suffix (* -yulu)
+noun-pc35_lrt1-lex-rule.
+
+noun-pc36_lrt1-suffix :=
+%suffix (* -ajarna)
+noun-pc36_lrt1-lex-rule.
+
+noun-pc37_lrt1-suffix :=
+%suffix (* -bajarna)
+noun-pc37_lrt1-lex-rule.
+
+noun-pc39_lrt1-suffix :=
+%suffix (* -inya)
+noun-pc39_lrt1-lex-rule.
+
+noun-pc41_lrt1-suffix :=
+%suffix (* -marndi)
+noun-pc41_lrt1-lex-rule.
+
+noun-pc42_lrt1-suffix :=
+%suffix (* -wulu)
+noun-pc42_lrt1-lex-rule.
+
+noun-pc43_lrt1-suffix :=
+%suffix (* -ngunya)
+noun-pc43_lrt1-lex-rule.
+
+noun-pc45_lrt1-suffix1 :=
+%suffix (* -nguja)
+noun-pc45_lrt1-lex-rule.
+
+noun-pc45_lrt1-suffix2 :=
+%suffix (* -nguji)
+noun-pc45_lrt1-lex-rule.
+
+noun-pc47_lrt1-suffix :=
+%suffix (* -yulu)
+noun-pc47_lrt1-lex-rule.
+
+noun-pc48_lrt1-suffix :=
+%suffix (* -u)
+noun-pc48_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix1 :=
+%prefix (* aliyulu-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix2 :=
+%prefix (* angbardi-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix3 :=
+%prefix (* banjarri-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix4 :=
+%prefix (* dawi-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix5 :=
+%prefix (* rawu-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix6 :=
+%prefix (* dudiyarri-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix7 :=
+%prefix (* gurda-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix8 :=
+%prefix (* ilinga-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc1_lrt1-prefix9 :=
+%prefix (* daguma-)
+verb-pc1_lrt1-lex-rule.
+
+verb-pc2_lrt1-suffix1 :=
+%suffix (* -barlirna)
+verb-pc2_lrt1-lex-rule.
+
+verb-pc2_lrt1-suffix2 :=
+%suffix (* -baji)
+verb-pc2_lrt1-lex-rule.
+
+verb-pc2_lrt1-suffix3 :=
+%suffix (* -barli)
+verb-pc2_lrt1-lex-rule.
+
+verb-pc4_lrt1-suffix :=
+%suffix (* -ba)
+verb-pc4_lrt1-lex-rule.
+
+verb-pc5_lrt1-suffix :=
+%suffix (* -barra)
+verb-pc5_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix1 :=
+%prefix (* ayani-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix2 :=
+%prefix (* jiya-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix3 :=
+%prefix (* mawula-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix4 :=
+%prefix (* yardi-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix5 :=
+%prefix (* ngirra-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix6 :=
+%prefix (* wugbardi-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix7 :=
+%prefix (* wurrudbanyi-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix8 :=
+%prefix (* lumi-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc6_lrt1-prefix9 :=
+%prefix (* yurndu-)
+verb-pc6_lrt1-lex-rule.
+
+verb-pc8_lrt1-suffix :=
+%suffix (* -nu)
+verb-pc8_lrt1-lex-rule.
+
+verb-pc10_lrt1-suffix :=
+%suffix (* -marndarna)
+verb-pc10_lrt1-lex-rule.
+
+verb-pc11_lrt1-suffix1 :=
+%suffix (* -ni)
+verb-pc11_lrt1-lex-rule.
+
+verb-pc11_lrt1-suffix2 :=
+%suffix (* -nka)
+verb-pc11_lrt1-lex-rule.
+
+verb-pc15_lrt1-prefix :=
+%prefix (* dawu-)
+verb-pc15_lrt1-lex-rule.
+
+verb-pc16_lrt1-suffix :=
+%suffix (* -barda)
+verb-pc16_lrt1-lex-rule.
+
+verb-pc18_lrt1-prefix1 :=
+%prefix (* didima-)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc18_lrt1-prefix2 :=
+%prefix (* durnanjarri-)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc18_lrt1-prefix3 :=
+%prefix (* junmi-)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc20_lrt1-suffix1 :=
+%suffix (* -jirrimi)
+verb-pc20_lrt1-lex-rule.
+
+verb-pc20_lrt1-suffix2 :=
+%suffix (* -babu)
+verb-pc20_lrt1-lex-rule.
+
+verb-pc22_lrt1-suffix1 :=
+%suffix (* -a)
+verb-pc22_lrt1-lex-rule.
+
+verb-pc22_lrt1-suffix2 :=
+%suffix (* -amany)
+verb-pc22_lrt1-lex-rule.
+
+verb-pc22_lrt1-suffix3 :=
+%suffix (* -any)
+verb-pc22_lrt1-lex-rule.
+
+verb-pc22_lrt2-suffix :=
+%suffix (* -any)
+verb-pc22_lrt2-lex-rule.
+
+verb-pc26_lrt1-suffix :=
+%suffix (* -u)
+verb-pc26_lrt1-lex-rule.
+
+verb-pc27_lrt1-suffix :=
+%suffix (* -ng)
+verb-pc27_lrt1-lex-rule.
+
+verb-pc28_lrt1-suffix :=
+%suffix (* -a)
+verb-pc28_lrt1-lex-rule.
+
+verb-pc30_lrt1-suffix :=
+%suffix (* -ugba)
+verb-pc30_lrt1-lex-rule.
+
+verb-pc33_lrt1-suffix :=
+%suffix (* -ma)
+verb-pc33_lrt1-lex-rule.
+
+verb-pc39_lrt1-prefix :=
+%prefix (* lingba-)
+verb-pc39_lrt1-lex-rule.
+
+verb-pc41_lrt1-suffix :=
+%suffix (* -n)
+verb-pc41_lrt1-lex-rule.
+
+verb-pc42_lrt1-suffix :=
+%suffix (* -i)
+verb-pc42_lrt1-lex-rule.
+
+verb-pc45_lrt1-prefix :=
+%prefix (* wurlu-)
+verb-pc45_lrt1-lex-rule.
+
+verb-pc48_lrt1-prefix :=
+%prefix (* yugu-)
+verb-pc48_lrt1-lex-rule.

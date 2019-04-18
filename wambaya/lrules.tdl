@@ -1,12 +1,10 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
-noun-pc87_lrt1-lex := noun-pc87_lrt1-lex-rule.
+noun-pc2_lrt1-lex := noun-pc2_lrt1-lex-rule.
 
-noun-pc87_lrt2-lex := noun-pc87_lrt2-lex-rule.
+noun-pc2_lrt3_na-lex := noun-pc2_lrt3_na-lex-rule.
 
-noun-pc87_lrt3-lex := noun-pc87_lrt3-lex-rule.
+noun-pc2_lrt4-lex := noun-pc2_lrt4-lex-rule.
 
-noun-pc87_lrt4-lex := noun-pc87_lrt4-lex-rule.
+verb-pc20_lrt2-lex := verb-pc20_lrt2-lex-rule.
 
-noun-pc87_lrt5-lex := noun-pc87_lrt5-lex-rule.
-
-verb-pc55_lrt1-lex := verb-pc55_lrt1-lex-rule.
+verb-pc20_lrt3-lex := verb-pc20_lrt3-lex-rule.
