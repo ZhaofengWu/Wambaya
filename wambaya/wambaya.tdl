@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Wambaya
 ;;; created at:
-;;;     Thu Apr 18 06:47:36 UTC 2019
+;;;     Thu Apr 18 17:59:07 UTC 2019
 ;;; based on Matrix customization system version of:
 ;;;     Tue Nov 13 21:13:22 UTC 2018
 ;;;
@@ -304,25 +304,25 @@ determiner-lex := basic-determiner-lex & norm-zero-arg & non-mod-lex-item &
 
 ;;; Intermediate rule types
 
-verb-pc20-or-verb-pc48-rule-dtr := word-or-lexrule.
-verb-pc11-rule-dtr := word-or-lexrule.
-noun-pc8-rule-dtr := word-or-lexrule.
+verb-pc16-rule-dtr := word-or-lexrule.
 verb-pc28-rule-dtr := word-or-lexrule.
+noun-pc8-rule-dtr := word-or-lexrule.
 verb-pc15-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
 verb-pc1-rule-dtr := word-or-lexrule.
 verb-pc18-rule-dtr := word-or-lexrule.
 verb-pc6-rule-dtr := word-or-lexrule.
-verb-pc16-rule-dtr := word-or-lexrule.
+noun-pc22-rule-dtr := word-or-lexrule.
+verb-pc26-rule-dtr := word-or-lexrule.
 noun-pc3-rule-dtr := word-or-lexrule.
 noun-pc4-rule-dtr := word-or-lexrule.
 noun-pc18-rule-dtr := word-or-lexrule.
 verb-pc4-rule-dtr := word-or-lexrule.
-noun-pc22-rule-dtr := word-or-lexrule.
-noun-pc2-rule-dtr := word-or-lexrule.
-verb-pc26-rule-dtr := word-or-lexrule.
-noun-pc6-rule-dtr := word-or-lexrule.
 verb-pc2-rule-dtr := word-or-lexrule.
+noun-pc2-rule-dtr := word-or-lexrule.
+noun-pc16-rule-dtr := word-or-lexrule.
+noun-pc6-rule-dtr := word-or-lexrule.
+verb-pc11-rule-dtr := word-or-lexrule.
+verb-pc20-or-verb-pc48-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 

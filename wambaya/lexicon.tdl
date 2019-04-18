@@ -535,5 +535,41 @@ ngg := verb19-verb-lex &
 
 ;;; Auxiliaries
 
-na := aux1-aux-lex &
-  [ STEM < "na" > ].
+ngi- := aux1-aux-lex &
+  [ STEM < "ngi-" > ].
+
+nyi- := aux1-aux-lex &
+  [ STEM < "nyi-" > ].
+
+gini- := aux1-aux-lex &
+  [ STEM < "gini-" > ].
+
+gi- := aux1-aux-lex &
+  [ STEM < "gi-" > ].
+
+ngiyi- := aux1-aux-lex &
+  [ STEM < "ngiyi-" > ].
+
+mirndi- := aux1-aux-lex &
+  [ STEM < "mirndi-" > ].
+
+ngurlu- := aux1-aux-lex &
+  [ STEM < "ngurlu-" > ].
+
+gurlu- := aux1-aux-lex &
+  [ STEM < "gurlu-" > ].
+
+wurlu- := aux1-aux-lex &
+  [ STEM < "wurlu-" > ].
+
+ngurru- := aux1-aux-lex &
+  [ STEM < "ngurru-" > ].
+
+ngirri- := aux1-aux-lex &
+  [ STEM < "ngirri-" > ].
+
+girri- := aux1-aux-lex &
+  [ STEM < "girri-" > ].
+
+irri- := aux1-aux-lex &
+  [ STEM < "irri-" > ].
