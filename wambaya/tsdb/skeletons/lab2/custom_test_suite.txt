@@ -1,6 +1,6 @@
 Language: Wambaya
 Language code: wmb
-Lines: orth gloss translat
+Lines: orth-seg gloss translat
 Author: Zhaofeng Wu
 Date: April 17, 2019
 Source a: Nordlinger_AGrammarofWambaya.pdf
