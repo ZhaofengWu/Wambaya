@@ -1,54 +1,54 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 ;;; Semantically Empty Lexical Entries
 
-ngi-_gr := arg0e_gtr &
+ngi_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "ngi-" ].
+    FLAGS.TRIGGER "ngi" ].
 
-nyi-_gr := arg0e_gtr &
+nyi_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "nyi-" ].
+    FLAGS.TRIGGER "nyi" ].
 
-gini-_gr := arg0e_gtr &
+gini_2_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "gini-" ].
+    FLAGS.TRIGGER "gini_2" ].
 
-gi-_gr := arg0e_gtr &
+gi_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "gi-" ].
+    FLAGS.TRIGGER "gi" ].
 
-ngiyi-_gr := arg0e_gtr &
+ngiyi_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "ngiyi-" ].
+    FLAGS.TRIGGER "ngiyi" ].
 
-mirndi-_gr := arg0e_gtr &
+mirndi_2_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "mirndi-" ].
+    FLAGS.TRIGGER "mirndi_2" ].
 
-ngurlu-_gr := arg0e_gtr &
+ngurlu_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "ngurlu-" ].
+    FLAGS.TRIGGER "ngurlu" ].
 
-gurlu-_gr := arg0e_gtr &
+gurlu_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "gurlu-" ].
+    FLAGS.TRIGGER "gurlu" ].
 
-wurlu-_gr := arg0e_gtr &
+wurlu_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "wurlu-" ].
+    FLAGS.TRIGGER "wurlu" ].
 
-ngurru-_gr := arg0e_gtr &
+ngurru_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "ngurru-" ].
+    FLAGS.TRIGGER "ngurru" ].
 
-ngirri-_gr := arg0e_gtr &
+ngirri_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "ngirri-" ].
+    FLAGS.TRIGGER "ngirri" ].
 
-girri-_gr := arg0e_gtr &
+girri_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "girri-" ].
+    FLAGS.TRIGGER "girri" ].
 
-irri-_gr := arg0e_gtr &
+irri_2_gr := arg0e_gtr &
   [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
-    FLAGS.TRIGGER "irri-" ].
+    FLAGS.TRIGGER "irri_2" ].

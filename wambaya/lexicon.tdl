@@ -417,7 +417,7 @@ alalangmi := verb1-verb-lex &
   [ STEM < "alalangmi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_hunt_v_rel" ].
 
-irri := verb1-verb-lex &
+irri_1 := verb1-verb-lex &
   [ STEM < "irri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_3.pl.a_v_rel" ].
 
@@ -505,7 +505,7 @@ nyu := verb10-verb-lex &
   [ STEM < "nyu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_2.sg.a_v_rel" ].
 
-gini := verb10-verb-lex &
+gini_1 := verb10-verb-lex &
   [ STEM < "gini" >,
     SYNSEM.LKEYS.KEYREL.PRED "_3.sg.m.a_v_rel" ].
 
@@ -521,7 +521,7 @@ lingba%21%21%21DO-NOT-USE%21%21%21 := verb14-verb-lex &
   [ STEM < "lingba!!!DO-NOT-USE!!!" >,
     SYNSEM.LKEYS.KEYREL.PRED "_swim_v_rel" ].
 
-mirndi := verb15-verb-lex &
+mirndi_1 := verb15-verb-lex &
   [ STEM < "mirndi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_1.pl.inc.s.pr_v_rel" ].
 
@@ -535,41 +535,41 @@ ngg := verb19-verb-lex &
 
 ;;; Auxiliaries
 
-ngi- := aux1-aux-lex &
-  [ STEM < "ngi-" > ].
+ngi := aux1-aux-lex &
+  [ STEM < "ngi" > ].
 
-nyi- := aux1-aux-lex &
-  [ STEM < "nyi-" > ].
+nyi := aux2-aux-lex &
+  [ STEM < "nyi" > ].
 
-gini- := aux1-aux-lex &
-  [ STEM < "gini-" > ].
+gini_2 := aux3-aux-lex &
+  [ STEM < "gini" > ].
 
-gi- := aux1-aux-lex &
-  [ STEM < "gi-" > ].
+gi := aux4-aux-lex &
+  [ STEM < "gi" > ].
 
-ngiyi- := aux1-aux-lex &
-  [ STEM < "ngiyi-" > ].
+ngiyi := aux5-aux-lex &
+  [ STEM < "ngiyi" > ].
 
-mirndi- := aux1-aux-lex &
-  [ STEM < "mirndi-" > ].
+mirndi_2 := aux6-aux-lex &
+  [ STEM < "mirndi" > ].
 
-ngurlu- := aux1-aux-lex &
-  [ STEM < "ngurlu-" > ].
+ngurlu := aux7-aux-lex &
+  [ STEM < "ngurlu" > ].
 
-gurlu- := aux1-aux-lex &
-  [ STEM < "gurlu-" > ].
+gurlu := aux8-aux-lex &
+  [ STEM < "gurlu" > ].
 
-wurlu- := aux1-aux-lex &
-  [ STEM < "wurlu-" > ].
+wurlu := aux9-aux-lex &
+  [ STEM < "wurlu" > ].
 
-ngurru- := aux1-aux-lex &
-  [ STEM < "ngurru-" > ].
+ngurru := aux10-aux-lex &
+  [ STEM < "ngurru" > ].
 
-ngirri- := aux1-aux-lex &
-  [ STEM < "ngirri-" > ].
+ngirri := aux11-aux-lex &
+  [ STEM < "ngirri" > ].
 
-girri- := aux1-aux-lex &
-  [ STEM < "girri-" > ].
+girri := aux12-aux-lex &
+  [ STEM < "girri" > ].
 
-irri- := aux1-aux-lex &
-  [ STEM < "irri-" > ].
+irri_2 := aux13-aux-lex &
+  [ STEM < "irri" > ].
