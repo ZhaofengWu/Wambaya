@@ -9,14 +9,6 @@ Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {case}
-Gijilulu-nguj-bali-ni-ni.
-money-PROP-PL-I-LOC
-`The men with money (ergative/locative).'
-
-Source: a:page
-Vetted: s
-Judgment: g
-Phenomena: {case}
 Jany-buli-ji wurlu-ng-a nyurrunyurru.
 dog-DU-LOC 3.DU.A-1.O-NF chase
 `Two dogs chased me.'
