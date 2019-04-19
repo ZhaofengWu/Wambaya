@@ -9,113 +9,113 @@ Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {case}
-Jany-buli-ji wurlu-ng-a nyurrunyurru.
-dog-DU-LOC 3.DU.A-1.O-NF chase
-`Two dogs chased me.'
+Jany-buli-ji wurlu-a alalangmi.
+dog-DU-LOC 3.DU.A-NF hunt
+`Two dogs hunted.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {case}
-Alaji gi-n yugu.
-boy.I.NOM 3.SG.S(PR)-PROG cry
-`The little boy is crying.'
+Alaji gi-n alalangmi.
+boy.I.NOM 3.SG.S(PR)-PROG hunt
+`The little boy is hunting.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {case}
-Alaji-ji gi-n yugu.
-boy.I-LOC 3.SG.S(PR)-PROG cry   
-`The little boy is crying.'
+Alaji-ji gi-n alalangmi.
+boy.I-LOC 3.SG.S(PR)-PROG hunt
+`The little boy is hunting.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {case}
-Waliyulu irr-a marrgulu.
-find 3.PL.A-PST egg.IV.ACC
-`They found (some) eggs.'
+Alalangmi irr-a ngabulu.
+hunt 3.PL.A-PST milk.IV.ACC
+`They hunted (some) milk.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {case}
-Waliyulu irr-a marrgulu-ji.
-find 3.PL.A-PST egg.IV-LOC
-`They found (some) eggs.'
+Alalangmi irr-a ngabulu-ji.
+hunt 3.PL.A-PST milk.IV-LOC
+`They hunted (some) milk.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {case}
-Mirra ng-u ngankagunya-ni.
-sit 1.SG.S-FUT this.II.PL-LOC
-`I’ll sit with these women.'
+Alalangmi ng-u ngankagunya-ni.
+hunt 1.SG.S-FUT this.II.PL-LOC
+`I’ll hunt with these women.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {case}
-Bungmanyi-ni gini-ng-a jiyawu.
-old.man.I-LOC 3.SG.M.A-1.O-NF give
-`The old man gave it to me.'
+Bungmanyi-ni gini-a alalangmi.
+old.man.I-LOC 3.SG.M.A-NF hunt
+`The old man hunted it.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {case}
-Bungmanyi gini-ng-a jiyawu.
-old.man.I.NOM 3.SG.M.A-1.O-NF give
-`The old man gave it to me.'
+Bungmanyi gini-a alalangmi.
+old.man.I.NOM 3.SG.M.A-NF hunt
+`The old man hunted it.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {pronoun, tense}
-Ngajbi ng-a irra.
-see 1.SG.A-PST 3.PL.ACC
-`I watched them.'
+Alalangmi ng-a.
+hunt 1.SG.A-PST
+`I hunted them.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {pronoun}
-Ngajbi ngarra irra.
-see 1.SG.OBL 3.PL.ACC
-`I watch them.'
+Alalangmi ngarra.
+hunt 1.SG.OBL
+`I hunted them.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {pronoun, agreement, tense}
-Ngirriyani ngirri-n mirra.
-1.PL.EXC.NOM 1.PL.EXC.S(NP)-PROG sit
-`We’re sitting here.'
+Ngirriyani ngirri-n alalangmi.
+1.PL.EXC.NOM 1.PL.EXC.S(NP)-PROG hunt
+`We’re hunting here.'
 
 Source: a:page
 Vetted: f
-Judgment: u
+Judgment: g
 Phenomena: {pronoun}
-Ngurruwani ngirri-n mirra.
-1.PL.INC.NOM 1.PL.EXC.S(NP)-PROG sit
-`We’re sitting here.'
+Ngurruwani ngirri-n alalangmi.
+1.PL.INC.NOM 1.PL.EXC.S(NP)-PROG hunt
+`We’re hunting here.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {pronoun, agreement, tense}
-Mirrang-ba ng-u ngangi-yili.
-sit-FUT 1.SG.S-FUT 2.SG.OBL-COMIT
-`I’ll sit with you.'
+Alalangmi-ba ng-u ngangi-yili.
+hunt-FUT 1.SG.S-FUT 2.SG.OBL-COMIT
+`I’ll hunt with you.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {pronoun}
-Mirrang-ba ng-a ngangi-yili.
-sit-FUT 1.SG.A-PST 2.SG.OBL-COMIT
-`I’ll sit with you.'
+Alalangmi-ba ng-a ngangi-yili.
+hunt-FUT 1.SG.A-PST 2.SG.OBL-COMIT
+`I’ll hunt with you.'
 
 Source: a:page
 Vetted: s
@@ -137,55 +137,55 @@ Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {agreement, case}
-Yangaji ini bagijbi.
-meat.I(NOM) this.I.SG.NOM bad.I(NOM)
-`This meat is no good.'
+Marawunjini ini bagijbi.
+spider.I(NOM) this.I.SG.NOM bad.I(NOM)
+`This spider is no good.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {agreement}
-Yangaji yana bagijbi.
-meat.I(NOM) this.IV.SG.NOM bad.I(NOM)
-`This meat is no good.'
+Marawunjini yana bagijbi.
+spider.I(NOM) this.IV.SG.NOM bad.I(NOM)
+`This spider is no good.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {agreement, case}
-Bagiga yana gunju.
-bad.IV(NOM) this.IV.SG.NOM meat.IV(NOM)
-`This meat is no good.'
+Bagiga yana ngabulu.
+bad.IV(NOM) this.IV.SG.NOM milk.IV(NOM)
+`This milk is no good.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {agreement}
-Bagijbi yana gunju.
-bad.I(NOM) this.IV.SG.NOM meat.IV(NOM)
-`This meat is no good.'
+Bagijbi yana ngabulu.
+bad.I(NOM) this.IV.SG.NOM milk.IV(NOM)
+`This milk is no good.'
 
 Source: a:page
 Vetted: f
 Judgment: u
 Phenomena: {agreement}
-Bagiga yana yangaji.
-bad.IV(NOM) this.IV.SG.NOM meat.I(NOM)
-`This meat is no good.'
+Bagiga yana marawunjini.
+bad.IV(NOM) this.IV.SG.NOM milk.I(NOM)
+`This milk is no good.'
 
 Source: a:page
 Vetted: s
 Judgment: g
 Phenomena: {pronoun}
-Ngaj-ba g-u baba-liji.
-see-FUT 3.SG.A-FUT brother.I-REFL.POSS(ACC)
-`She’ll see her brother.'
+Alalangmi-ba g-u.
+hunt-FUT 3.SG.A-FUT
+`She’ll hunt.'
 
 Source: a:page
 Vetted: s
-Judgment: u
+Judgment: g
 Phenomena: {pronoun}
-Ngaj-ba ng-u baba-liji.
-see-FUT 1.SG.A-FUT brother.I-REFL.POSS(ACC)
-`I’ll see my brother.'
+Alalangmi-ba ng-u.
+hunt-FUT 1.SG.A-FUT
+`I’ll hunt.'
 
