@@ -6,7 +6,7 @@ Date: April 17, 2019
 Source a: Nordlinger_AGrammarofWambaya.pdf
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {case}
 Jany-buli-ji wurlu-a alalangmi.
@@ -14,7 +14,7 @@ dog-DU-LOC 3.DU.A-NF hunt
 `Two dogs hunted.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {case}
 Alaji gi-n alalangmi.
@@ -30,7 +30,7 @@ boy.I-LOC 3.SG.S(PR)-PROG hunt
 `The little boy is hunting.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {case}
 Alalangmi irr-a ngabulu.
@@ -46,7 +46,7 @@ hunt 3.PL.A-PST milk.IV-LOC
 `They hunted (some) milk.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {case}
 Alalangmi ng-u ngankagunya-ni.
@@ -54,7 +54,7 @@ hunt 1.SG.S-FUT this.II.PL-LOC
 `I’ll hunt with these women.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {case}
 Bungmanyi-ni gini-a alalangmi.
@@ -70,7 +70,7 @@ old.man.I.NOM 3.SG.M.A-NF hunt
 `The old man hunted it.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {pronoun, tense}
 Alalangmi ng-a.
@@ -86,7 +86,7 @@ hunt 1.SG.OBL
 `I hunted them.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {pronoun, agreement, tense}
 Ngirriyani ngirri-n alalangmi.
@@ -95,14 +95,14 @@ Ngirriyani ngirri-n alalangmi.
 
 Source: a:page
 Vetted: f
-Judgment: g
+Judgment: u
 Phenomena: {pronoun}
 Ngurruwani ngirri-n alalangmi.
 1.PL.INC.NOM 1.PL.EXC.S(NP)-PROG hunt
 `We’re hunting here.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {pronoun, agreement, tense}
 Alalangmi-ba ng-u ngangi-yili.
@@ -118,7 +118,7 @@ hunt-FUT 1.SG.A-PST 2.SG.OBL-COMIT
 `I’ll hunt with you.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {pronoun, agreement, tense}
 Ardbi irri-n ngarra.
@@ -134,7 +134,7 @@ call.out 3.PL.S(NP)-PROG 1.SG.NOM
 `They’re calling out to me.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {agreement, case}
 Marawunjini ini bagijbi.
@@ -150,7 +150,7 @@ spider.I(NOM) this.IV.SG.NOM bad.I(NOM)
 `This spider is no good.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {agreement, case}
 Bagiga yana ngabulu.
@@ -174,7 +174,7 @@ bad.IV(NOM) this.IV.SG.NOM milk.I(NOM)
 `This milk is no good.'
 
 Source: a:page
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {pronoun}
 Alalangmi-ba g-u.
@@ -182,8 +182,8 @@ hunt-FUT 3.SG.A-FUT
 `She’ll hunt.'
 
 Source: a:page
-Vetted: s
-Judgment: g
+Vetted: f
+Judgment: u
 Phenomena: {pronoun}
 Alalangmi-ba ng-u.
 hunt-FUT 1.SG.A-FUT
