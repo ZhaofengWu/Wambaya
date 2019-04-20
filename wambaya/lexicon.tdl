@@ -353,10 +353,6 @@ langan := noun57-noun-lex &
   [ STEM < "langan" >,
     SYNSEM.LKEYS.KEYREL.PRED "_climb_n_rel" ].
 
-nangi := noun69-noun-lex &
-  [ STEM < "nangi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_3.sg.m_n_rel" ].
-
 nayida := noun71-noun-lex &
   [ STEM < "nayida" >,
     SYNSEM.LKEYS.KEYREL.PRED "_woman_n_rel" ].
@@ -373,9 +369,101 @@ ngarrinybi := noun79-noun-lex &
   [ STEM < "ngarrinybi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_mate_n_rel" ].
 
-ny_1 := noun82-noun-lex &
+ny_1 := noun83-noun-lex &
   [ STEM < "ny" >,
     SYNSEM.LKEYS.KEYREL.PRED "_2.sg_n_rel" ].
+
+nangi := noun83-noun-lex &
+  [ STEM < "nangi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.sg.m_n_rel" ].
+
+ngawurniji := noun83-noun-lex &
+  [ STEM < "ngawurniji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.sg.nom_n_rel" ].
+
+ngarra := noun83-noun-lex &
+  [ STEM < "ngarra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.sg.obl_n_rel" ].
+
+nyamirniji := noun83-noun-lex &
+  [ STEM < "nyamirniji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.sg.nom_n_rel" ].
+
+nganga := noun83-noun-lex &
+  [ STEM < "nganga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.sg.obl_n_rel" ].
+
+nanga := noun83-noun-lex &
+  [ STEM < "nanga" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.sg.m.obl_n_rel" ].
+
+ngaya := noun83-noun-lex &
+  [ STEM < "ngaya" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.sg.f.obl_n_rel" ].
+
+mirndiyani := noun83-noun-lex &
+  [ STEM < "mirndiyani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.du.inc.nom_n_rel" ].
+
+mirnda := noun83-noun-lex &
+  [ STEM < "mirnda" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.du.inc.obl_n_rel" ].
+
+ngurluwani := noun83-noun-lex &
+  [ STEM < "ngurluwani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.du.exc.nom_n_rel" ].
+
+ngurla := noun83-noun-lex &
+  [ STEM < "ngurla" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.du.exc.obl_n_rel" ].
+
+gurluwani := noun83-noun-lex &
+  [ STEM < "gurluwani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.du.nom_n_rel" ].
+
+gurla := noun83-noun-lex &
+  [ STEM < "gurla" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.du.acc_n_rel" ].
+
+wurluwani := noun83-noun-lex &
+  [ STEM < "wurluwani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.du.nom_n_rel" ].
+
+wurla := noun83-noun-lex &
+  [ STEM < "wurla" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.du.acc_n_rel" ].
+
+ngurruwani := noun83-noun-lex &
+  [ STEM < "ngurruwani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.pl.inc.nom_n_rel" ].
+
+ngurra := noun83-noun-lex &
+  [ STEM < "ngurra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.pl.inc.obl_n_rel" ].
+
+ngirriyani := noun83-noun-lex &
+  [ STEM < "ngirriyani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.pl.exc.nom_n_rel" ].
+
+ngirra := noun83-noun-lex &
+  [ STEM < "ngirra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_1.pl.exc.obl_n_rel" ].
+
+girriyani := noun83-noun-lex &
+  [ STEM < "girriyani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.pl.nom_n_rel" ].
+
+girra := noun83-noun-lex &
+  [ STEM < "girra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_2.pl.acc_n_rel" ].
+
+irriyani := noun83-noun-lex &
+  [ STEM < "irriyani" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.pl.nom_n_rel" ].
+
+irra := noun83-noun-lex &
+  [ STEM < "irra" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_3.pl.acc_n_rel" ].
 
 ;;; Adjectives
 

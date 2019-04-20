@@ -1,0 +1,199 @@
+Language: Wambaya
+Language code: wmb
+Lines: orth-seg gloss translat
+Author: Zhaofeng Wu
+Date: April 17, 2019
+Source a: Nordlinger_AGrammarofWambaya.pdf
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {case}
+Gijilulu-nguj-bali-ni-ni.
+money-PROP-PL-I-LOC
+`The men with money (ergative/locative).'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {case}
+Jany-buli-ji wurlu-ng-a nyurrunyurru.
+dog-DU-LOC 3.DU.A-1.O-NF chase
+`Two dogs chased me.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {case}
+Alaji gi-n yugu.
+boy.I.NOM 3.SG.S(PR)-PROG cry
+`The little boy is crying.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Alaji-ji gi-n yugu.
+boy.I-LOC 3.SG.S(PR)-PROG cry   
+`The little boy is crying.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {case}
+Waliyulu irr-a marrgulu.
+find 3.PL.A-PST egg.IV.ACC
+`They found (some) eggs.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Waliyulu irr-a marrgulu-ji.
+find 3.PL.A-PST egg.IV-LOC
+`They found (some) eggs.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {case}
+Mirra ng-u ngankagunya-ni.
+sit 1.SG.S-FUT this.II.PL-LOC
+`I’ll sit with these women.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {case}
+Bungmanyi-ni gini-ng-a jiyawu.
+old.man.I-LOC 3.SG.M.A-1.O-NF give
+`The old man gave it to me.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Bungmanyi gini-ng-a jiyawu.
+old.man.I.NOM 3.SG.M.A-1.O-NF give
+`The old man gave it to me.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {pronoun, tense}
+Ngajbi ng-a irra.
+see 1.SG.A-PST 3.PL.ACC
+`I watched them.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Ngajbi ngarra irra.
+see 1.SG.OBL 3.PL.ACC
+`I watch them.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {pronoun, agreement, tense}
+Ngirriyani ngirri-n mirra.
+1.PL.EXC.NOM 1.PL.EXC.S(NP)-PROG sit
+`We’re sitting here.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Ngurruwani ngirri-n mirra.
+1.PL.INC.NOM 1.PL.EXC.S(NP)-PROG sit
+`We’re sitting here.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {pronoun, agreement, tense}
+Mirrang-ba ng-u ngangi-yili.
+sit-FUT 1.SG.S-FUT 2.SG.OBL-COMIT
+`I’ll sit with you.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Mirrang-ba ng-a ngangi-yili.
+sit-FUT 1.SG.A-PST 2.SG.OBL-COMIT
+`I’ll sit with you.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {pronoun, agreement, tense}
+Ardbi irri-n ngarra.
+call.out 3.PL.S(NP)-PROG 1.SG.OBL
+`They’re calling out to me.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Ardbi irri-n ngawurniji.
+call.out 3.PL.S(NP)-PROG 1.SG.NOM
+`They’re calling out to me.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {agreement, case}
+Yangaji ini bagijbi.
+meat.I(NOM) this.I.SG.NOM bad.I(NOM)
+`This meat is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Yangaji yana bagijbi.
+meat.I(NOM) this.IV.SG.NOM bad.I(NOM)
+`This meat is no good.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {agreement, case}
+Bagiga yana gunju.
+bad.IV(NOM) this.IV.SG.NOM meat.IV(NOM)
+`This meat is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Bagijbi yana gunju.
+bad.I(NOM) this.IV.SG.NOM meat.IV(NOM)
+`This meat is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Bagiga yana yangaji.
+bad.IV(NOM) this.IV.SG.NOM meat.I(NOM)
+`This meat is no good.'
+
+Source: a:page
+Vetted: s
+Judgment: g
+Phenomena: {pronoun}
+Ngaj-ba g-u baba-liji.
+see-FUT 3.SG.A-FUT brother.I-REFL.POSS(ACC)
+`She’ll see her brother.'
+
+Source: a:page
+Vetted: s
+Judgment: u
+Phenomena: {pronoun}
+Ngaj-ba ng-u baba-liji.
+see-FUT 1.SG.A-FUT brother.I-REFL.POSS(ACC)
+`I’ll see my brother.'
+

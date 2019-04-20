@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Wambaya
 ;;; created at:
-;;;     Sat Apr 20 02:54:26 UTC 2019
+;;;     Sat Apr 20 06:12:22 UTC 2019
 ;;; based on Matrix customization system version of:
 ;;;     Tue Nov 13 21:13:22 UTC 2018
 ;;;
@@ -63,9 +63,10 @@ ori := case.  ; orig
 ;;; Person
 
 person := *top*.
-1st := person.
 2nd := person.
-3rd := person.
+non-2nd := person.
+3rd := non-2nd.
+1st := non-2nd.
 
 ;;; Number
 
@@ -105,6 +106,19 @@ noun-lex := basic-noun-lex & basic-one-arg & no-hcons-lex-item & non-mod-lex-ite
                            SUBJ < >,
                            SPEC < > ],
     ARG-ST < #spr > ].
+
+no-spr-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SPR < [ OPT + ] > ].
+
+; Nouns which cannot take specifiers mark their SPR requirement
+; as OPT +.  Making the non-head daughter OPT - in this rule
+; keeps such nouns out.
+; 
+; Rules for building NPs.  Note that the Matrix uses SPR for
+; the specifier of nouns and SUBJ for the subject (specifier) of verbs.
+
+head-spec-phrase := basic-head-spec-phrase & head-final &
+  [ NON-HEAD-DTR.SYNSEM.OPT - ].
 
 noun1-noun-lex := noun-lex.
 
@@ -164,8 +178,6 @@ noun55-noun-lex := noun-lex.
 
 noun57-noun-lex := noun-lex.
 
-noun69-noun-lex := noun-lex.
-
 noun71-noun-lex := noun-lex.
 
 noun74-noun-lex := noun-lex.
@@ -174,7 +186,8 @@ noun77-noun-lex := noun-lex.
 
 noun79-noun-lex := noun-lex.
 
-noun82-noun-lex := noun-lex.
+noun83-noun-lex := no-spr-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.PRON + ].
 
 ;;; Verbs
 
@@ -221,7 +234,10 @@ erg-acc-transitive-verb-lex := transitive-verb-lex &
                               [ CASE acc ] ] > ].
 
 verb1-verb-lex := intransitive-verb-lex & verb-pc11-rule-dtr & verb-pc18-rule-dtr & verb-pc2-rule-dtr & verb-pc20-or-verb-pc48-rule-dtr & verb-pc4-rule-dtr & verb-pc6-rule-dtr &
-  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD.CASE nom,
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL [ CAT.HEAD.CASE nom,
+                                            CONT.HOOK.INDEX.PNG [ NUM number,
+                                                                  PER non-2nd,
+                                                                  GEND gend_I ] ],
     INFLECTED.VERB-PC20-FLAG - ].
 
 verb2-verb-lex := intransitive-verb-lex & verb-pc1-rule-dtr & verb-pc15-rule-dtr & verb-pc16-rule-dtr & verb-pc2-rule-dtr & verb-pc4-rule-dtr &
@@ -547,25 +563,25 @@ determiner-lex := basic-determiner-lex & norm-zero-arg & non-mod-lex-item &
 
 ;;; Intermediate rule types
 
-verb-pc6-rule-dtr := word-or-lexrule.
-verb-pc28-rule-dtr := word-or-lexrule.
-noun-pc8-rule-dtr := word-or-lexrule.
-verb-pc1-rule-dtr := word-or-lexrule.
-verb-pc20-or-verb-pc48-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
-verb-pc15-rule-dtr := word-or-lexrule.
-verb-pc18-rule-dtr := word-or-lexrule.
 verb-pc16-rule-dtr := word-or-lexrule.
+verb-pc11-rule-dtr := word-or-lexrule.
+noun-pc8-rule-dtr := word-or-lexrule.
+verb-pc15-rule-dtr := word-or-lexrule.
+verb-pc1-rule-dtr := word-or-lexrule.
+verb-pc18-rule-dtr := word-or-lexrule.
+verb-pc6-rule-dtr := word-or-lexrule.
 noun-pc22-rule-dtr := word-or-lexrule.
 noun-pc3-rule-dtr := word-or-lexrule.
-noun-pc4-rule-dtr := word-or-lexrule.
-verb-pc11-rule-dtr := word-or-lexrule.
-verb-pc4-rule-dtr := word-or-lexrule.
-noun-pc2-rule-dtr := word-or-lexrule.
-verb-pc26-rule-dtr := word-or-lexrule.
-noun-pc6-rule-dtr := word-or-lexrule.
-verb-pc2-rule-dtr := word-or-lexrule.
 noun-pc18-rule-dtr := word-or-lexrule.
+noun-pc4-rule-dtr := word-or-lexrule.
+verb-pc28-rule-dtr := word-or-lexrule.
+verb-pc4-rule-dtr := word-or-lexrule.
+verb-pc2-rule-dtr := word-or-lexrule.
+verb-pc26-rule-dtr := word-or-lexrule.
+noun-pc16-rule-dtr := word-or-lexrule.
+noun-pc6-rule-dtr := word-or-lexrule.
+noun-pc2-rule-dtr := word-or-lexrule.
+verb-pc20-or-verb-pc48-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -844,7 +860,7 @@ noun-pc39_lrt1-lex-rule := noun-pc39-lex-rule-super &
 
 noun-pc41-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
-    DTR noun69-noun-lex &
+    DTR noun83-noun-lex &
         [ INFLECTED #infl ] ].
 
 noun-pc41_lrt1-lex-rule := noun-pc41-lex-rule-super &
@@ -887,7 +903,7 @@ noun-pc47_lrt1-lex-rule := noun-pc47-lex-rule-super &
 
 noun-pc48-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
-    DTR noun82-noun-lex &
+    DTR noun83-noun-lex &
         [ INFLECTED #infl ] ].
 
 noun-pc48_lrt1-lex-rule := noun-pc48-lex-rule-super.
@@ -1098,11 +1114,6 @@ comp-head-phrase := basic-head-1st-comp-phrase & head-final-head-nexus.
 head-comp-phrase-2 := basic-head-2nd-comp-phrase & head-initial-head-nexus.
 
 comp-head-phrase-2 := basic-head-2nd-comp-phrase & head-final-head-nexus.
-
-; Rules for building NPs.  Note that the Matrix uses SPR for
-; the specifier of nouns and SUBJ for the subject (specifier) of verbs.
-
-head-spec-phrase := basic-head-spec-phrase & head-final.
 
 ; Bare NP phrase.  Consider modifying the PRED value of the quantifier relation
 ; introduced to match the semantic effect of bare NPs in your language.
