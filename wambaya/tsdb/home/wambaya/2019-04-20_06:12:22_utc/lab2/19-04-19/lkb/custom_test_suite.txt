@@ -1,0 +1,215 @@
+Language: Wambaya
+Language code: wmb
+Lines: orth-seg gloss translat
+Author: Zhaofeng Wu
+Date: April 17, 2019
+Source a: Nordlinger_AGrammarofWambaya.pdf
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Jany-buli-ji wurlu-a alalangmi.
+dog-DU-LOC 3.DU.A-NF hunt
+`Two dogs hunted.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Alaji gi-n alalangmi.
+boy.I.NOM 3.SG.S(PR)-PROG hunt
+`The little boy is hunting.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Alaji-ji gi-n alalangmi.
+boy.I-LOC 3.SG.S(PR)-PROG hunt
+`The little boy is hunting.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Alalangmi irr-a ngabulu.
+hunt 3.PL.A-PST milk.IV.ACC
+`They hunted (some) milk.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Alalangmi irr-a ngabulu-ji.
+hunt 3.PL.A-PST milk.IV-LOC
+`They hunted (some) milk.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Alalangmi ng-u ngankagunya-ni.
+hunt 1.SG.S-FUT this.II.PL-LOC
+`I’ll hunt with these women.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Bungmanyi-ni gini-a alalangmi.
+old.man.I-LOC 3.SG.M.A-NF hunt
+`The old man hunted it.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Bungmanyi gini-a alalangmi.
+old.man.I.NOM 3.SG.M.A-NF hunt
+`The old man hunted it.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Yarru g-amany gagarra-ngani.
+go 3.SG.S-PST.TWD east-ABL
+`He came from the east.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Mirra ngi alangi-niganka-ni jalyu-ni.
+sit 1.SG.S(PR) boy.I-GEN.IV-LOC bed.IV-LOC
+I’m sitting on the boy’s bed.
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Mirra ngi alangi-ni-niganka jalyu-ni.
+sit 1.SG.S(PR) boy.I-LOC-GEN.IV bed.IV-LOC
+I’m sitting on the boy’s bed.
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {pronoun, tense}
+Alalangmi ng-a.
+hunt 1.SG.A-PST
+`I hunted them.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Alalangmi ngarra.
+hunt 1.SG.OBL
+`I hunted them.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {pronoun, agreement, tense}
+Ngirriyani ngirri-n alalangmi.
+1.PL.EXC.NOM 1.PL.EXC.S(NP)-PROG hunt
+`We’re hunting here.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Ngurruwani ngirri-n alalangmi.
+1.PL.INC.NOM 1.PL.EXC.S(NP)-PROG hunt
+`We’re hunting here.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {pronoun, agreement, tense}
+Alalangmi-ba ng-u ngangi-yili.
+hunt-FUT 1.SG.S-FUT 2.SG.OBL-COMIT
+`I’ll hunt with you.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Alalangmi-ba ng-a ngangi-yili.
+hunt-FUT 1.SG.A-PST 2.SG.OBL-COMIT
+`I’ll hunt with you.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {pronoun, agreement, tense}
+Ardbi irri-n ngarra.
+call.out 3.PL.S(NP)-PROG 1.SG.OBL
+`They’re calling out to me.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Ardbi irri-n ngawurniji.
+call.out 3.PL.S(NP)-PROG 1.SG.NOM
+`They’re calling out to me.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {agreement, case}
+Marawunjini ini bagijbi.
+spider.I(NOM) this.I.SG.NOM bad.I(NOM)
+`This spider is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Marawunjini yana bagijbi.
+spider.I(NOM) this.IV.SG.NOM bad.I(NOM)
+`This spider is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {agreement, case}
+Bagiga yana ngabulu.
+bad.IV(NOM) this.IV.SG.NOM milk.IV(NOM)
+`This milk is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Bagijbi yana ngabulu.
+bad.I(NOM) this.IV.SG.NOM milk.IV(NOM)
+`This milk is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {agreement}
+Bagiga yana marawunjini.
+bad.IV(NOM) this.IV.SG.NOM milk.I(NOM)
+`This milk is no good.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {pronoun}
+Alalangmi-ba g-u.
+hunt-FUT 3.SG.A-FUT
+`She’ll hunt.'
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {pronoun}
+Alalangmi-ba ng-u.
+hunt-FUT 1.SG.A-FUT
+`I’ll hunt.'
+
