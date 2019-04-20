@@ -72,6 +72,30 @@ old.man.I.NOM 3.SG.M.A-NF hunt
 Source: a:page
 Vetted: f
 Judgment: g
+Phenomena: {case}
+Yarru g-amany gagarra-ngani.
+go 3.SG.S-PST.TWD east-ABL
+`He came from the east.'
+
+Source: a:page
+Vetted: f
+Judgment: g
+Phenomena: {case}
+Mirra ngi alangi-niganka-ni jalyu-ni.
+sit 1.SG.S(PR) boy.I-GEN.IV-LOC bed.IV-LOC
+I’m sitting on the boy’s bed.
+
+Source: a:page
+Vetted: f
+Judgment: u
+Phenomena: {case}
+Mirra ngi alangi-ni-niganka jalyu-ni.
+sit 1.SG.S(PR) boy.I-LOC-GEN.IV bed.IV-LOC
+I’m sitting on the boy’s bed.
+
+Source: a:page
+Vetted: f
+Judgment: g
 Phenomena: {pronoun, tense}
 Alalangmi ng-a.
 hunt 1.SG.A-PST
