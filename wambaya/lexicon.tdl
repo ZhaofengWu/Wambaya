@@ -31,7 +31,7 @@ alaji := noun2-noun-lex &
 
 mugunjana := noun2-noun-lex &
   [ STEM < "mugunjana" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_louse.ii.nom_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_louse.ii_n_rel" ].
 
 baba := noun2-noun-lex &
   [ STEM < "baba" >,
@@ -315,7 +315,7 @@ garnguji := noun31-noun-lex &
 
 garrgalyi := noun33-noun-lex &
   [ STEM < "garrgalyi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_plains.lizard.i.nom_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_plains.lizard.i_n_rel" ].
 
 gayini := noun36-noun-lex &
   [ STEM < "gayini" >,

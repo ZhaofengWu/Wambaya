@@ -5,13 +5,69 @@ noun-pc1_lrt1-suffix :=
 %suffix (* -bulu)
 noun-pc1_lrt1-lex-rule.
 
-noun-pc2_lrt2-suffix :=
-%suffix (* -naganka)
-noun-pc2_lrt2-lex-rule.
-
 noun-pc2_lrt3_a-suffix :=
 %suffix (* -liji)
 noun-pc2_lrt3_a-lex-rule.
+
+noun-pc2_lrt6-suffix1 :=
+%suffix (* -yi)
+noun-pc2_lrt6-lex-rule.
+
+noun-pc2_lrt6-suffix2 :=
+%suffix (* -ji)
+noun-pc2_lrt6-lex-rule.
+
+noun-pc2_lrt6-suffix3 :=
+%suffix (* -ni)
+noun-pc2_lrt6-lex-rule.
+
+noun-pc2_lrt6-suffix4 :=
+%suffix (* -nu)
+noun-pc2_lrt6-lex-rule.
+
+noun-pc2_lrt7-suffix1 :=
+%suffix (* -ja)
+noun-pc2_lrt7-lex-rule.
+
+noun-pc2_lrt7-suffix2 :=
+%suffix (* -janka)
+noun-pc2_lrt7-lex-rule.
+
+noun-pc2_lrt7-suffix3 :=
+%suffix (* -nka)
+noun-pc2_lrt7-lex-rule.
+
+noun-pc2_lrt7-suffix4 :=
+%suffix (* -ngga)
+noun-pc2_lrt7-lex-rule.
+
+noun-pc2_lrt8-suffix :=
+%suffix (* -nmanji)
+noun-pc2_lrt8-lex-rule.
+
+noun-pc2_lrt9-suffix1 :=
+%suffix (* -ngani)
+noun-pc2_lrt9-lex-rule.
+
+noun-pc2_lrt9-suffix2 :=
+%suffix (* -nnga)
+noun-pc2_lrt9-lex-rule.
+
+noun-pc2_lrt10-suffix1 :=
+%suffix (* -yili)
+noun-pc2_lrt10-lex-rule.
+
+noun-pc2_lrt10-suffix2 :=
+%suffix (* -mbili)
+noun-pc2_lrt10-lex-rule.
+
+noun-pc2_lrt11-suffix :=
+%suffix (* -nkanyi)
+noun-pc2_lrt11-lex-rule.
+
+noun-pc2_lrt12-suffix :=
+%suffix (* -nmarndi)
+noun-pc2_lrt12-lex-rule.
 
 noun-pc3_lrt1-suffix :=
 %suffix (* -rdarra)
@@ -21,9 +77,25 @@ noun-pc4_lrt1-suffix :=
 %suffix (* -ni)
 noun-pc4_lrt1-lex-rule.
 
-noun-pc5_lrt1-suffix :=
+noun-pc5_lrt1-suffix1 :=
 %suffix (* -niganka)
 noun-pc5_lrt1-lex-rule.
+
+noun-pc5_lrt1-suffix2 :=
+%suffix (* -nuganka)
+noun-pc5_lrt1-lex-rule.
+
+noun-pc5_lrt1-suffix3 :=
+%suffix (* -naganka)
+noun-pc5_lrt1-lex-rule.
+
+noun-pc5_lrt2-suffix :=
+%suffix (* -niganji)
+noun-pc5_lrt2-lex-rule.
+
+noun-pc5_lrt3-suffix :=
+%suffix (* -niganya)
+noun-pc5_lrt3-lex-rule.
 
 noun-pc6_lrt1-suffix :=
 %suffix (* -nka)

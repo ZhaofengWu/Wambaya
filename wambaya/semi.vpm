@@ -49,6 +49,10 @@ PNG.NUM : PNG.NUM
   * <> *
 
 PNG.GEND : PNG.GEND
+  gend_IV <> gend_IV
+  gend_III <> gend_III
+  gend_II <> gend_II
+  gend_I <> gend_I
   * <> *
 
 E.TENSE : E.TENSE

@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Wambaya
 ;;; created at:
-;;;     Fri Apr 19 00:17:38 UTC 2019
+;;;     Sat Apr 20 02:54:26 UTC 2019
 ;;; based on Matrix customization system version of:
 ;;;     Tue Nov 13 21:13:22 UTC 2018
 ;;;
@@ -26,14 +26,15 @@ noun :+ [ CASE case ].
 
 basic-head-comp-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.OPT - ].
 
-inflected :+ [ VERB-PC20-FLAG luk,
-    NOUN-PC2-FLAG luk ].
+inflected :+ [ NOUN-PC2-FLAG luk,
+    VERB-PC20-FLAG luk ].
 
-infl-satisfied :+ [ VERB-PC20-FLAG na-or-+,
-    NOUN-PC2-FLAG na-or-+ ].
+infl-satisfied :+ [ NOUN-PC2-FLAG na-or-+,
+    VERB-PC20-FLAG na-or-+ ].
 
 png :+ [ PER person,
-    NUM number ].
+    NUM number,
+    GEND gender ].
 
 basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
 
@@ -50,6 +51,14 @@ acc := case.  ; acc
 dat := case.  ; dat
 loc := case.  ; loc
 gen := case.  ; gen
+all := case.  ; all
+abl := case.  ; abl
+com := case.  ; comit
+per := case.  ; perl
+cau := case.  ; causal
+pro := case.  ; propr
+pri := case.  ; priv
+ori := case.  ; orig
 
 ;;; Person
 
@@ -63,6 +72,14 @@ person := *top*.
 number := *top*.
 du := number.
 pl := number.
+
+;;; Gender
+
+gender := *top*.
+gend_I := gender.
+gend_II := gender.
+gend_III := gender.
+gend_IV := gender.
 
 ;;; Form
 
@@ -530,13 +547,13 @@ determiner-lex := basic-determiner-lex & norm-zero-arg & non-mod-lex-item &
 
 ;;; Intermediate rule types
 
-verb-pc20-or-verb-pc48-rule-dtr := word-or-lexrule.
-noun-pc18-rule-dtr := word-or-lexrule.
-noun-pc8-rule-dtr := word-or-lexrule.
+verb-pc6-rule-dtr := word-or-lexrule.
 verb-pc28-rule-dtr := word-or-lexrule.
-verb-pc15-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
+noun-pc8-rule-dtr := word-or-lexrule.
 verb-pc1-rule-dtr := word-or-lexrule.
+verb-pc20-or-verb-pc48-rule-dtr := word-or-lexrule.
+noun-pc16-rule-dtr := word-or-lexrule.
+verb-pc15-rule-dtr := word-or-lexrule.
 verb-pc18-rule-dtr := word-or-lexrule.
 verb-pc16-rule-dtr := word-or-lexrule.
 noun-pc22-rule-dtr := word-or-lexrule.
@@ -546,9 +563,9 @@ verb-pc11-rule-dtr := word-or-lexrule.
 verb-pc4-rule-dtr := word-or-lexrule.
 noun-pc2-rule-dtr := word-or-lexrule.
 verb-pc26-rule-dtr := word-or-lexrule.
-verb-pc6-rule-dtr := word-or-lexrule.
 noun-pc6-rule-dtr := word-or-lexrule.
 verb-pc2-rule-dtr := word-or-lexrule.
+noun-pc18-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -570,9 +587,6 @@ noun-pc2-lex-rule-super := add-only-no-ccont-rule &
 noun-pc2_lrt1-lex-rule := const-lex-rule & noun-pc2-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.HEAD.CASE nom ].
 
-noun-pc2_lrt2-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
-  [ SYNSEM.LOCAL.CAT.HEAD.CASE gen ].
-
 noun-pc2_lrt3_na-lex-rule := const-lex-rule & noun-pc2-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.HEAD.CASE acc ].
 
@@ -581,6 +595,27 @@ noun-pc2_lrt4-lex-rule := const-lex-rule & noun-pc2-lex-rule-super &
 
 noun-pc2_lrt3_a-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.HEAD.CASE acc ].
+
+noun-pc2_lrt6-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE erg ].
+
+noun-pc2_lrt7-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE dat ].
+
+noun-pc2_lrt8-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE all ].
+
+noun-pc2_lrt9-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE abl ].
+
+noun-pc2_lrt10-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE com ].
+
+noun-pc2_lrt11-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE per ].
+
+noun-pc2_lrt12-lex-rule := infl-lex-rule & noun-pc2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE cau ].
 
 noun-pc3-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
@@ -604,7 +639,16 @@ noun-pc5-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & noun-pc4-rul
         [ INFLECTED #infl ] ].
 
 noun-pc5_lrt1-lex-rule := noun-pc5-lex-rule-super &
-  [ SYNSEM.LOCAL.CAT.HEAD.CASE gen ].
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE gen,
+                   CONT.HOOK.INDEX.PNG.GEND gend_IV ] ].
+
+noun-pc5_lrt2-lex-rule := noun-pc5-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE gen,
+                   CONT.HOOK.INDEX.PNG.GEND gend_I ] ].
+
+noun-pc5_lrt3-lex-rule := noun-pc5-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE gen,
+                   CONT.HOOK.INDEX.PNG.GEND gend_II ] ].
 
 noun-pc6-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
